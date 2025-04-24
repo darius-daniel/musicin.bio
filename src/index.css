@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-*: initial;
+  --font-display: 'Outfit', 'sans-serif';
+  --color-primary-green: #004E42;
+  --color-primary-dark-green: #021C18;
+  --color-secondary-green: #BDE561;
+  --color-secondary-orange: #FF4800;
+  --color-accent-pink: #F4EDD0;
+  --color-accent-green: #D7FF7F;
+}
