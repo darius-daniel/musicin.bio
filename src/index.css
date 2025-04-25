@@ -2,11 +2,23 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/src/assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Source Sans Pro Semibold";
+  src: url(/src/assets/fonts/SourceSansPro-Semibold.otf);
 }
 
 @theme {
   --color-*: initial;
   --font-display: 'Outfit', 'sans-serif';
+  --font-source-sans-pro-semibold: "Source Sans Pro Semibold";
   --color-primary-green: #004E42;
   --color-primary-dark-green: #021C18;
   --color-secondary-green: #BDE561;
@@ -15,4 +27,5 @@
   --color-accent-green: #D7FF7F;
   --color-white: #FFFFFF;
   --color-gray: #EBEBEB;
+  --color-black: #000000;
 }
