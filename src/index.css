@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+#root {
+
+}
+
 @font-face {
   font-family: "Outfit";
   src: url(/src/assets/fonts/Outfit-VariableFont_wght.ttf);
