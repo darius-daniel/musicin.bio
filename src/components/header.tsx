@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="flex flex-row justify-between items-center py-[16px] px-[24px] min-[1200px]:px-[120px] min-[1200px]:py-[24px] drop-shadow-md/8 relative">
       <img
-        src="/src/assets/main%20logo.png"
+        src="/src/assets/main_logo.png"
         alt="Main logo for the website"
         className="w-[150px]"
       />
