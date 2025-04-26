@@ -37,7 +37,7 @@ export default function WhyMusicin() {
         <h2 className='font-[800] leading-[110%] text-[36px] min-[1024px]:text-[56px]'>Why musicin.bio?</h2>
 
         <div className='grid grid-cols-1 min-[1024px]:grid-cols-2 min-[1024px]:gap-x-[48px] gap-[40px]'>
-          {reasons.map((reason) => <ReasonCard index={reason.index} title={reason.title} explanation={reason.explanation} />)}
+          {reasons.map((reason, idx) => <ReasonCard index={reason.index} title={reason.title} explanation={reason.explanation} key={idx}/>)}
         </div>
       </div>
     </section>

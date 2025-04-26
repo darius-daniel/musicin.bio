@@ -1,4 +1,5 @@
 import './App.css'
+import FAQ from './components/faq.tsx';
 import Header from "./components/header.tsx";
 import Hero from './components/hero.tsx';
 import Metrics from './components/metrics.tsx';
@@ -46,6 +47,8 @@ function App() {
           imageUrl={testimonials[0].imageUrl}
         />
       </section>
+
+      <FAQ />
     </>
   )
 }
