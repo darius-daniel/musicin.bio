@@ -9,7 +9,7 @@ export default function Header() {
       <img
         src="/src/assets/hamburger-menu.png"
         alt="Hamburger menu icon for mobile devices"
-        className='w-[21px] min-[1024px]:hidden absolute right-[24px]'
+        className="w-[21px] min-[1024px]:hidden absolute right-[24px]"
       />
       <nav>
         <ul className="max-[1024px]:hidden flex gap-[32px] font-medium text-[20px] leading-[100%]">
@@ -28,9 +28,19 @@ export default function Header() {
         </ul>
       </nav>
       <div className="max-[1024px]:hidden flex gap-[16px] font-bold text-[16px] leading-[25px] font-source-sans-pro-semibold">
-        <a href="#" className="rounded-[4px] border-1 text-primary-green border-primary-green py-[16px] px-[32px]">Login</a>
-        <a href="#" className="rounded-[4px] bg-primary-green text-white py-[16px] px-[32px]">Sign up</a>
+        <a
+          href="#"
+          className="rounded-[4px] border-1 text-primary-green border-primary-green py-[16px] px-[32px]"
+        >
+          Login
+        </a>
+        <a
+          href="#"
+          className="rounded-[4px] bg-primary-green text-white py-[16px] px-[32px]"
+        >
+          Sign up
+        </a>
       </div>
     </header>
-  )
+  );
 }

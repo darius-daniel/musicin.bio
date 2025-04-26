@@ -6,7 +6,9 @@ A link in bio tool means you never have to compromise, or remove one link from y
 
   return (
     <section className="flex flex-col gap-[36px] items-center justify-center py-[120px] px-[24px] min-[1024px]:px-[120px] bg-accent-green">
-      <h2 className="font-[700] text-[36px] min-[1024px]:text-[56px] leading-[110%]">Got Questions</h2>
+      <h2 className="font-[700] text-[36px] min-[1024px]:text-[56px] leading-[110%]">
+        Got Questions
+      </h2>
       <dl className="w-full flex flex-col gap-[12px] leading-[120%]">
         <FAQItem question="Why do I need a link in bio tool?" answer={answer} />
       </dl>

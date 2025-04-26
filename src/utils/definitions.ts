@@ -10,4 +10,3 @@ export type Testimonial = {
   role: string,
   imageUrl: string,
 }
-
