@@ -3,6 +3,7 @@ import FAQ from "./components/faq.tsx";
 import Header from "./components/header.tsx";
 import Hero from "./components/hero.tsx";
 import Metrics from "./components/metrics.tsx";
+import NewsLetter from "./components/newsletter.tsx";
 import ShareMusic from "./components/share-music.tsx";
 import TestimonialComponent from "./components/testimonial.tsx";
 import WhyMusicin from "./components/why-musicin.tsx";
@@ -56,6 +57,7 @@ function App() {
       </section>
 
       <FAQ />
+      <NewsLetter />
     </>
   );
 }
